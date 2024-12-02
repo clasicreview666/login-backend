@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 
 // MySQL Database Connection
 const db = mysql.createConnection({
-    host: "localhost", // Use your DB host
-    user: "root",      // Use your DB username
-    password: "smit666", // Use your DB password
-    database: "login_db"  // Use your DB name
+    host: "dpg-ct6s5i3v2p9s739lobfg-a", // Use your DB host
+    user: "ruchi",      // Use your DB username
+    password: "EwU2TRSjTtuMFIQhffUHCdXa8uCNwidS", // Use your DB password
+    database: "smit_suthar"  // Use your DB name
 });
 
 db.connect((err) => {
