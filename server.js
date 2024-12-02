@@ -15,9 +15,9 @@ const db = mysql.createConnection({
     database: "smit_suthar"  // Use your DB name
 });
 
-db.connect((err) => {
+connection.connect(function(err) {
     if (err) throw err;
-    console.log("Connected to MySQL database");
+    console.log("Connected to the database!");
 });
 
 // Login Endpoint
